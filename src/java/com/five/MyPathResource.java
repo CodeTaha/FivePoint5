@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.test;
+package com.five;
 
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.UriInfo;
@@ -26,11 +26,12 @@ public class MyPathResource {
 
     @Context
     private UriInfo context;
-
+   
     /**
      * Creates a new instance of MyPathResource
      */
     public MyPathResource() {
+    
     }
 
     /**
@@ -44,7 +45,14 @@ public class MyPathResource {
         //throw new UnsupportedOperationException();
         return "My first test servic1e";
     }
-
+    @GET
+    @Path("MyPath2")
+    @Produces("text/plain")
+    public String getText2() {
+        //TODO return proper representation object
+        //throw new UnsupportedOperationException();
+        return "My first test 2";
+    }
     /**
      * PUT method for updating or creating an instance of MyPathResource
      * @param content representation for the resource
