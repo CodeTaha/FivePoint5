@@ -1,0 +1,104 @@
+var hikers = [
+	{
+		"name":"Wiley", 
+		"messages": 5, 
+		"videos": 6, 
+		"audios": 7, 
+		"destination": "Beijing", 
+		"time": 345,
+		"image": "assets/Sebiretchi_Large.png",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque dapibus tincidunt. " 
+	},
+	{
+		"name":"Ely", 
+		"messages": 5, 
+		"videos": 6, 
+		"audios": 7, 
+		"destination": "Tailand", 
+		"time": 345,
+		"image": "assets/eli_the_elephant.png",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque dapibus tincidunt. " 
+	},
+	{
+		"name":"Miley", 
+		"messages": 5, 
+		"videos": 6, 
+		"audios": 7, 
+		"destination": "Finland", 
+		"time": 345,
+		"image": "assets/miley_the_moose.png",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque dapibus tincidunt. " 
+	},
+	{
+		"name":"Monty", 
+		"messages": 5, 
+		"videos": 6, 
+		"audios": 7, 
+		"destination": "Philipines", 
+		"time": 345,
+		"image": "assets/monty_the_monkey.png",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque dapibus tincidunt. " 
+	},
+	{
+		"name":"Olley", 
+		"messages": 5, 
+		"videos": 6, 
+		"audios": 7, 
+		"destination": "Mongolia", 
+		"time": 345,
+		"image": "assets/olly_the_owl.png",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque dapibus tincidunt. " 
+	},
+
+	
+	{
+		"name":"Salvador", 
+		"messages": 1, 
+		"videos": 2, 
+		"audios": 3, 
+		"destination": "Mumbai", 
+		"time": 344356,
+		"image": "assets/Hashizoutchi_Large.png",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque dapibus tincidunt. Proin lobortis ultrices dui vel lobortis. Sed a odio volutpat, tristique est ut, scelerisque nisi. Ut at luctus nibh, nec ornare justo. Maecenas varius lorem ac nisi ultrices semper" 
+	}
+];
+
+var messages_1 = [
+	{
+		"type": "text",
+		"title": "WOW!",
+		"start": "London",
+		"end":"Beijing",
+		"content": "bla bla bla bla bla"
+	},
+	{
+		"type": "text",
+		"title": "WOW!",
+		"start": "London",
+		"end":"Beijing",
+		"content": "bla bla bla bla bla"
+	},
+	{
+		"type": "video",
+		"title": "WOW!",
+		"start": "London",
+		"end":"Beijing",
+		"content": "bla bla bla bla bla"
+	},
+	{
+		"type": "audio",
+		"title": "WOW!",
+		"start": "London",
+		"end":"Beijing",
+		"content": "bla bla bla bla bla"
+	},
+	{
+		"type": "audio",
+		"title": "WOW!",
+		"start": "London",
+		"end":"Beijing",
+		"content": "bla bla bla bla bla"
+	}
+];
+
+var index = 0;

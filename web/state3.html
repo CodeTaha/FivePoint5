@@ -1,0 +1,74 @@
+<html>
+  <head>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <script src="js/hikers.json"></script>
+  <script src="js/profile.js"></script>
+  <style type="text/css">
+  
+  </style>
+  </head>
+  <body background="">
+    <div class="row" id="h_profile" style="height: 630px">
+        <div class="col s12 m7">
+          <div class="card ">
+            <div class="card-image ">
+              <img src="assets/Sebiretchi_Large.png" id="h_image" style="height: 250px ">
+              <span class="card-title grey-text" id="h_name">Card Title</span>
+            </div>
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m5">
+                  <div class="card-panel indigo">
+                    <span class="white-text" id="h_description">
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col s6 m5">
+                  <div class="card-panel indigo lighten-2">
+                    <span class="white-text" id="h_destination">
+                    </span>
+                  </div>
+                </div>
+                <div class="col s6 m5">
+                  <div class="card-panel indigo lighten-2">
+                    <span class="white-text" id="h_time">
+                    </span>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="row" id="message_tab" >
+      <ul class="collection" id="mess_content">
+    
+      </ul>
+      <a class="btn-floating right btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+    </div>
+    <div class="row" id="journey_tab" >
+      <img src="assets/map.jpg" style="width: 350px">>
+    </div>
+      <div class="navbar-fixed">
+      <div class="col s12">
+        <ul class="tabs">
+          <li class="tab col s3"><a href="" id="star"><i class="material-icons ">grade</i></a></li>
+          <li class="tab col s3"><a href="" id="journey"><i class="material-icons ">location_on</i></a></li>
+          <li class="tab col s3"><a  href="" id="textsms"><i class="material-icons ">textsms</i></a></li>
+          <li class="tab col s3"><a href="#test2"><i class="material-icons ">settings</i></a></li>
+        </ul>
+      </div>
+      </div>
+    
+  </body>
+</html>
