@@ -164,7 +164,7 @@ Connection conn = null;
             query = " insert into hikers (name, origin, dest, users, current)"
              + " values (?, ?, ?, ?, ?)";
             // create the mysql insert preparedstatement
-            ArrayList<Integer> users=new ArrayList();
+            ArrayList<Integer> users=new ArrayList<Integer>();
             users.add(user);//{user};
             preparedStmt = conn.prepareStatement(query, PreparedStatement.RETURN_GENERATED_KEYS);
             preparedStmt.setString(1, hiker);
