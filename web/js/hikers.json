@@ -10,6 +10,48 @@ var hikers = [
 		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque dapibus tincidunt. " 
 	},
 	{
+		"name":"Ely", 
+		"messages": 5, 
+		"videos": 6, 
+		"audios": 7, 
+		"destination": "Tailand", 
+		"time": 345,
+		"image": "assets/eli_the_elephant.png",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque dapibus tincidunt. " 
+	},
+	{
+		"name":"Miley", 
+		"messages": 5, 
+		"videos": 6, 
+		"audios": 7, 
+		"destination": "Finland", 
+		"time": 345,
+		"image": "assets/miley_the_moose.png",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque dapibus tincidunt. " 
+	},
+	{
+		"name":"Monty", 
+		"messages": 5, 
+		"videos": 6, 
+		"audios": 7, 
+		"destination": "Philipines", 
+		"time": 345,
+		"image": "assets/monty_the_monkey.png",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque dapibus tincidunt. " 
+	},
+	{
+		"name":"Olley", 
+		"messages": 5, 
+		"videos": 6, 
+		"audios": 7, 
+		"destination": "Mongolia", 
+		"time": 345,
+		"image": "assets/olly_the_owl.png",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque dapibus tincidunt. " 
+	},
+
+	
+	{
 		"name":"Salvador", 
 		"messages": 1, 
 		"videos": 2, 
